@@ -22,3 +22,18 @@ The dataset comprises MRI scans sourced from medical imaging repositories, inclu
 - Keras
 - NumPy
 - Matplotlib
+
+## Novelty
+Hybrid Prediction Approach:
+
+The Hybrid Prediction Approach introduced in this project combines predictions from multiple deep learning models using an ensemble strategy. By leveraging the collective intelligence of diverse models, this approach aims to improve prediction accuracy and robustness compared to using individual models alone.
+
+The process begins with the integration of multiple state-of-the-art deep learning architectures, including VGG16, VGG19, InceptionV3, and ResNet50. Each model independently analyzes the input MRI scans and generates its prediction for the presence or absence of a brain tumor.
+
+Subsequently, the predictions from all models are aggregated and combined through a threshold-based decision-making process. This mechanism allows for flexible classification of brain tumor presence, enabling clinicians to customize the sensitivity and specificity of the prediction system based on specific diagnostic requirements.
+
+The threshold-based decision-making process ensures that the final prediction reflects a consensus among the ensemble of models. By adjusting the threshold, clinicians can effectively balance the trade-off between sensitivity and specificity, thereby optimizing the diagnostic performance of the prediction system.
+
+Overall, the Hybrid Prediction Approach offers a novel and effective strategy for automated brain tumor detection. By integrating multiple models and leveraging ensemble techniques, this approach enhances prediction accuracy and reliability, ultimately contributing to improved patient outcomes in neuro-oncology.
+
+
